@@ -12,7 +12,7 @@ services:
     volumes:
       - vprodbdata:/var/lib/mysql
     environment:
-      - MYSQL_ROOT_PASSWORD=salut123
+      - MYSQL_ROOT_PASSWORD=vprodbpass
 
   vproapp:
     build:
