@@ -31,8 +31,6 @@ services:
     container_name: vproweb
     ports:
       - "80:80"
-    volumes:
-      - vproappdata:/usr/local/tomcat/webapps
 
   vprocache01:
     image: memcached
